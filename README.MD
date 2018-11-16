@@ -3,7 +3,7 @@
 Leaflet polygon map showing poverty of Lao PDR based on 2015 census data, with hover info box, selectable legends, and data from GeoJSON file
 
 ## Demo
-
+https://phonephasouk.github.io/laos-poverty-map/
 
 ## Credits
 ### Scripts adapted from:
