@@ -1,0 +1,135 @@
+
+/* Edit height to display full map: 500px */
+#map { width: 98%; height: 96vh; margin: 0 auto; }
+.caption{ 
+  width: 96%; margin: 0 auto;
+  font: 14px/16px Arial, Helvetica, sans-serif; 
+}
+
+/*Edit width of info box */
+.info {
+    width: 230px;
+    padding: 10px 14px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 7px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+.areaName {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.faded {
+    opacity: 0.4;
+}
+.areaLabel {
+    float: left;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+.areaValue {
+    float: left;
+    width: 78%;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+/*legend selector*/
+
+form { white-space: nowrap; }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 3px 4px;
+  border-radius: 1px;
+  border: solid;
+  border-width: 0.5px;
+  border-color: gray;
+  background-color: rgba(240, 240, 240, 0.7);
+  margin: 0px 7px 0px 0px;
+}
+
+/*legend and info box*/
+
+.nowrap { white-space:nowrap; }
+h4 { text-align: left; }
+.info h4  { font-size: 14px; margin: 2px 37px 5px 37px; color: #777; }
+.legend   { width: 190px;  font-size: 12px; text-align: left; line-height: 15px; color: #555; } 
+.legend table { padding: 1px; border-spacing: 1px; }
+
+.legend .cblock { padding: 0px; margin: 0px;  width: 13px; opacity: 0.7; }
+.legend .ltext  { padding: 0px 5px 0px 10px; }
+
+h4.statewide {
+  font-size: 13px;
+  text-align: center;
+  margin: 0px;
+}
+
+select.legend {
+  font-weight: bold;
+  margin: 0px 0px 4px 0px;
+  width: 100%; 
+  text-align-last: center; text-align: center;
+  -webkit-align-self: center;
+}
+
+/*formatting info table*/
+table.props { font-size: 13px; padding: 0px; border-spacing: 0px; }
+
+table.props th, table.props td {
+  text-align: left;
+  padding: 1.5px 5px;
+  font-size: 12px;
+}
+
+td.dval { width: 2.9em; }
+
+table.planwide td {
+  padding: 1.5px 9px;
+} 
+
+table.planwide {
+  margin: 0px 0px 30px 0px;
+}
+
+table.planwide td.dval {
+  width: 2em;
+}
+
+table.props tr:nth-child(even) { background-color: rgba(230, 230, 230, 0.3); }
+
+table.legend_t tr:nth-child(odd) { background-color: rgba(230, 230, 230, 0.3); }
+
+/*logo and title*/
+img.logo { float: left; width: 40px; margin: 2px 12px 2px 4px; }
+
+p {
+    line-height: 3px;
+	margin-bottom: 7px;
+ }
+ 
+.ctitle {
+    margin-top: 10px !important;
+	margin-bottom: 10px;
+	max-width: 450px;
+    padding: 14px 10px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 7px;
+}
+
+.ctitle h4 {
+    margin: 0;
+	font-size: 1.25em;
+}
