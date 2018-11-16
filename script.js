@@ -5,7 +5,7 @@ var isMobile = false; //initiate as false
 		
 		
 		var m = L.map('map',{zoomControl: false});
-		m.setView([18.16, 105.70], 6); //map view for Laos
+		m.setView([18.76, 105.90], 6); //map view for Laos
 
 		//add zoom home control from @torfsen github
 		var zoomHome = L.Control.zoomHome({position: 'bottomleft'});
