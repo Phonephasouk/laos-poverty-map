@@ -1,8 +1,8 @@
 
 /* Edit height to display full map: 500px */
-#map { width: 90%; height: 90vh; margin: 0 auto; }
+#map { width: 98%; height: 95vh; margin: 0 auto; }
 .caption{ 
-  width: 90%; margin: 0 auto;
+  width: 98%; margin: 0 auto;
   font: 14px/16px Arial, Helvetica, sans-serif; 
 }
 
