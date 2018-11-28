@@ -8,7 +8,7 @@ https://phonephasouk.github.io/laos-poverty-map/
 ## Credits
 ### Scripts adapted from:
 - Hover polygon map by [@Jack Dougherty](https://github.com/JackDougherty/leaflet-map-polygon-tabs)
-- Leaflet zoomhome-control by Florian Brucker [@torfsen](https://github.com/torfsen/leaflet.zoomhome)
+- Leaflet easy button by [@CliffCloud](https://github.com/CliffCloud)
 - Gerrymandering map by [James Saxon](https://github.com/JamesSaxon), https://saxon.harris.uchicago.edu/redistricting_map/
 ### Data:
 - Lao admin layers retrieved from https://data.humdata.org/dataset/lao-admin-boundaries (humanitarian use only)
